@@ -1,0 +1,42 @@
+.customer{
+    display:flex;
+}
+.customer img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-top: 5px;
+}
+.name{
+    color:black;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.out_box{
+    
+    justify-content: space-between;
+}
+.box{
+  border:1px solid darkorange; 
+  height:100px;
+  justify-content: space-between;
+  margin: 5px;
+}
+.time{
+    margin-left: 28%;
+    position: absolute;
+    margin-top: 5rem;
+}
+.price{
+    background-color:  #FDD95C;
+    padding: 5px;
+    border: 1px solid black;
+}
+.footer{
+   
+    margin-top: 200px;
+    height: 55px;
+    background-color: hwb(47 85% 9%);   
+}

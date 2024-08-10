@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .art1{
+    color: rgb(157, 9, 157);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:60px;
+    padding: 20px;
+    padding-right: 0;
+}
+.art2{
+    font-size: 3vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orange;
+    padding: 20px;
+    padding-left: 0;
+}
+        .navbar{
+            background-color: rgb(6, 126, 196);
+            display:flex;
+
+        }
+        ul,li{
+            display: flex;
+           
+            color:white;
+            text-decoration: none;
+            font-size:20px;
+            margin-left: 10px;
+            padding: 20px;
+            
+        }
+        a{
+            text-decoration: none;
+            color:white
+        }
+        .active{
+            background-color: rgb(64, 226, 11);
+            color: black;
+        }
+        /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar{
+            background-color: black;
+            display:flex;
+
+        }
+        ul,li{
+            display: flex;
+           
+            color:white;
+            text-decoration: none;
+            font-size:20px;
+            margin-left: 10px;
+            padding: 10px;
+            
+        }
+        a{
+            text-decoration: none;
+            color:white
+        }
+        .active{
+            background-color: rgb(64, 226, 11);
+            color: black;
+        }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {background: green;}
+}
+.second{
+    display:flex;
+    justify-content: space-evenly;
+    height: 175px;
+    background-color:  #FDD95C;
+}
+ 
+
+.second img{
+    border-radius: 50%;
+    height: 100px;
+    width: 80;
+    margin-top: 8.5rem;
+    margin-left: 3rem;
+}
+.second img:hover{
+    width: 140px;
+    height: 150px;
+}
+.heading{
+    margin-left: 4rem;
+     margin-top: 0%;
+     text-align: center;
+ }
+ .heading1{
+    align-items: center; 
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 16%
+}
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <span class="art1">R</span><span class="art2">oyal Beauty</span>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Category</a>
+                <select name="cars" id="cars">
+                    <option value="volvo">Select</option>
+                    <option value="saab">Hair-color</option>
+                    <option value="opel">Hair-cut</option>
+                    <option value="audi">Hair-styling</option>
+                    <option value="audi">Makup</option>
+                    <option value="audi">Mehandi</option>
+                  </select> 
+            </li>
+            <li><a href="#">Loaction</a>
+        </ul>
+    </div>
+    <h1 class="heading1">Finds for all your increase beauty from talented beauty parlour sellers.
+    </h1>
+    <div class="container-fluid second">
+        <div>
+         <a href="C:\Users\Friends\OneDrive\Desktop\web task\myproject\html\servicess_cat.html">
+            <img src="../image1/hair-color1.webp">
+            <h3 class="heading"><b>hair<br>color</b></h3> 
+         </a>
+        </div>
+        <div>
+         <a href="C:\Users\Friends\OneDrive\Desktop\web task\myproject\html\servicess_cat2.html">
+           <img src="../image1/hair-cut.webp">
+           <h3 class="heading" ><b>hair<br>cut</b></h3></div>
+         </a>
+        <div>
+         <img src="../image1/hair-styling.webp">
+         <h3 class="heading"><b>hair<br>styling</b></h3>
+        </div>
+        <div>
+         <img src="../image1/makup.webp"height="110px" width="110px">
+         <h3 class="heading"><b>Makup</b></h3>
+        </div>
+        <div>
+         <img src="../image1/bridal.jpg"height="110px" width="110px">
+         <h3 class="heading"><b>Bridal<br>makeup</b></h3>
+        </div>
+        <div>
+         <img src="../image1/mehandi1.avif"height="110px" width="110px">
+         <h3 class="heading"><b>mehandi</b></h3>
+        </div>
+        <div>
+         <img src="../image1/mehandi2.jpg" height="110px" width="110px">
+         <h3 class="heading"><b>Bridal <br>mehandi</b></h3>
+        </div>
+        <div>
+         <img src="../image1/massage.jpg" height="110px" width="110px">
+         <h3 class="heading"><b>Massage</b></h3>
+        </div>
+        <div>
+         <img src="../image1/waxing.jpg" height="110px" width="110px">
+         <h3 class="heading"><b>Waxing</b></h3>
+        </div>
+     </div>
+</body>
+</html>

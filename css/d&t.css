@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+#appointment-form {
+  text-align: center;
+  border: 2px solid rgb(249, 215, 93);
+  padding:40px;
+}
+input{
+  width: 200px;
+  padding: 10px;
+}
+#year-input {
+  width: 200px;
+  padding: 10px;
+}
+
+#submit-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#time-slot-container {
+  text-align: center;
+  border: 2px solid rgb(249, 215, 93);
+  padding: 65px;
+}
+
+.time-slot {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.time-slot:hover {
+  background-color: #2980b9;
+}
+
+.selected {
+  background-color: #2ecc71;
+}
+
+.footer{
+   display: block;
+  margin-top: 200px;
+  height: 55px;
+  background-color: hwb(47 85% 9%);   
+}
+

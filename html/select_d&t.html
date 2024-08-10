@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Date & Time</title>
+    <link rel="stylesheet" href="../css/d&t.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font Link for Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src="../js/script.js" defer></script>
+  </head>
+  <body>
+      <div class="container" style="background-color: aliceblue; padding:30px">
+        <div class="row">
+          <div class="col-sm-6">
+            <div id="appointment-form">
+              <h2>Select Date and Year for Appointment</h2>
+          
+              <label for="date-input">Date:</label>
+              <input type="date" id="date-input" required>
+              <br><br>
+          
+              <label for="year-input">Year:</label>
+              <input type="number" id="year-input" min="2023" max="2030" value="2023">
+              <br><br>
+
+              <button id="submit-btn" onclick="submitForm()">Submit</button>
+            </div>
+          
+          </div>
+          <div class="col-sm-6">
+            <div id="time-slot-container">
+              <h2>Select Time Slot</h2>
+              <button class="time-slot" onclick="selectTimeSlot(this)">9:00 AM - 10:00 AM</button>
+              <button class="time-slot" onclick="selectTimeSlot(this)">10:00 AM - 11:00 AM</button>
+              <button class="time-slot" onclick="selectTimeSlot(this)">11:00 AM - 12:00 PM</button>
+              <button class="time-slot" onclick="selectTimeSlot(this)">1:00 PM - 2:00 PM</button>
+              <button class="time-slot" onclick="selectTimeSlot(this)">2:00 PM - 3:00 PM</button>
+              <!-- Add more time slots as needed -->
+              <div id="selected-time"></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <a href="#">
+            <button class="btn btn-warning btn1" style="margin-left: 700px; margin-top: 10px;">Go Back</button>
+           </a>
+          <a href="../responsive_form.php">
+           <button class="btn btn-warning btn1" style="margin-left: 8px;margin-top: 0px; margin-top: 10px;">Next Fill Out Your Detail</button>
+          </a>
+         </div>.
+      </div>
+       
+     
+  </body>
+</html>
